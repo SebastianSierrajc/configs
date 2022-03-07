@@ -86,6 +86,9 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+[[ -s /home/sebastian/.autojump/etc/profile.d/autojump.sh ]] && source /home/sebastian/.autojump/etc/profile.d/autojump.sh
+
+autoload -U compinit && compinit -u
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"

@@ -34,6 +34,7 @@ autocmd FileType javascript setlocal tabstop=2 shiftwidth=2 softtabstop=2
 
 so ~/configs/maps.vim
 so ~/configs/plugins.vim
+so ~/configs/coc.vim
 
 colorscheme railscasts
 filetype on
